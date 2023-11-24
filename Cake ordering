@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Buy a Cake</title>
+</head>
+<body>
+    <header>
+        <h1>Buy a Cake</h1>
+        <!-- Navigation links go here -->
+    </header>
+
+    <!-- Content goes here -->
+
+    <footer>
+        <!-- Footer content goes here -->
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
