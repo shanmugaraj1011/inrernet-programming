@@ -1,0 +1,61 @@
+<?php
+// Include database connection code here
+
+// Functions for admin
+function loginAdmin($username, $password) {
+    // Add logic to validate admin login
+}
+
+function manageProducts() {
+    // Add logic to manage products
+}
+
+function postCakeDetails() {
+    // Add logic to post cake details
+}
+
+function manageOrders() {
+    // Add logic to manage orders
+}
+
+function updateOrderStatus($orderId, $status) {
+    // Add logic to update order status
+}
+
+function logoutAdmin() {
+    // Add logic to logout admin
+}
+
+// Functions for users
+function registerUser($username, $password, $email) {
+    // Add logic to register users
+}
+
+function loginUser($username, $password) {
+    // Add logic to validate user login
+}
+
+function searchCake($keyword, $category, $subCategory, $priceRange) {
+    // Add logic to search for cakes
+}
+
+function addToCart($userId, $productId, $quantity) {
+    // Add logic to add items to the cart
+}
+
+function placeOrder($userId, $shippingAddress) {
+    // Add logic to place an order
+}
+
+function updateShippingAddress($userId, $shippingAddress) {
+    // Add logic to update shipping address
+}
+
+function viewOrders($userId) {
+    // Add logic to view user orders
+}
+
+function viewShippingStatus($orderId) {
+    // Add logic to view shipping status
+}
+?>
