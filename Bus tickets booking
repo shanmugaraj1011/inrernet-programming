@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<hr>
+    <title>Bus Ticket Booking System</title>
+</hr>
+</head>
+<body>
+<header>
+    <h1>Bus Ticket Booking System</h1>
+</header>
+<nav>
+</nav>
+<section id="login">
+  <h2>Login</h2>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required >
+<href=forgot password></href>
+    <button type="submit">Login</button>
+<a href="url"forgot password</a>
+</section>
+<section id="registration">
+    <h2>Registration</h2>
+</section>
+<section id="book-ticket">
+    <h2>Book the Ticket</h2>
+</section>
+<section id="update-bus-info">
+    <h2>Update Bus Information</h2>
+</section>
+<section id="cancel-booking">
+    <h2>Cancel Booking Ticket</h2>
+</section>
+<section id="comments">
+    <h2>Comments</h2>
+</section>
+<section id="report-generation">
+    <h2>Report Generation</h2>
+</section>
+<footer>
+    <p>&copy; 2023 Bus Ticket Booking System</p>
+</footer>
+</body>
+</html>
