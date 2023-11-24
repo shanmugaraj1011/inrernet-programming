@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking</title>
+</head>
+<body>
+        <h1>Hotel Room Booking</h1>
+    <section>    
+        <form id="userRegistrationForm">
+            <h2>User Registration</h2>
+            <button type="button" onclick="registerUser()">Register</button>
+        </form>
+        <form id="userProfileForm">
+            <h2>User Profile</h2>
+            <button type="button" onclick="modifyUserProfile()">Modify Profile</button>
+        </form>
+        <form id="roomBookingForm">
+            <h2>Room Booking</h2>
+            <button type="button" onclick="bookRoom()">Book Room</button>
+        </form>
+        <h2>Booking History</h2>
+        <table id="bookingHistoryTable">
+        </table>
+        <form id="modifyBookingForm">
+            <h2>Modify Booking</h2>
+            <button type="button" onclick="modifyBooking()">Modify Booking</button>
+        </form>
+        <form id="cancelBookingForm">
+            <h2>Cancel Booking</h2>
+            <button type="button" onclick="cancelBooking()">Cancel Booking</button>
+        </form>
+        <form id="roomAvailabilityForm">
+            <h2>Room Availability</h2>
+            <button type="button" onclick="checkRoomAvailability()">Check Availability</button>
+        </form>
+    </section>
+    <section>
+        <form id="adminLoginForm">
+            <h2>Administrator Login</h2>
+            <button type="button" onclick="adminLogin()">Login</button>
+        </form>
+        <div id="adminFunctions" style="display: none;">
+            <form id="changeQuantityPriceForm">
+                <h2>Change Quantity and Price</h2>
+                <button type="button" onclick="changeQuantityPrice()">Change Quantity and Price</button>
+            </form>
+            <form id="changeBookingDetailsForm">
+                <h2>Change Booking Details</h2>
+                <button type="button" onclick="changeBookingDetails()">Change Booking Details</button>
+            </form>
+            <form id="cancelBookingByAdminForm">
+                <h2>Cancel Booking by Admin</h2>
+                <button type="button" onclick="cancelBookingByAdmin()">Cancel Booking</button>
+            </form>
+            <form id="modifyStaticPagesForm">
+                <h2>Modify Static Pages</h2>
+                <button type="button" onclick="modifyStaticPages()">Modify Static Pages</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
